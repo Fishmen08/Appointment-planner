@@ -33,7 +33,7 @@ export const ContactsPage = (props) => {
     }
     setDuplicate(false);
 
-  }, [name])
+  }, [name, contactsList])
 
   return (
     <div>
